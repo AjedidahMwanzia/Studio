@@ -42,3 +42,17 @@
     padding-bottom: 1vw;
 }
 /* ................................................................................................................................. */
+.services{
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    color: white;
+    background-image: url(/assets/backgrounds/s_image.jpg);
+}
+.services h2{
+    padding-bottom: 1vw;
+    padding-top: 6vw;
+}
+.services p{
+    padding-bottom: 1vw;
+}
