@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     $(".visible  ").click(function(){
-    $(".hidden && .visible p").toggle()
+    $(".hidden ").toggle()
 });
     $(".hidden").click(function(){
     $(".visible").toggle()

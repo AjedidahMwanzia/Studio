@@ -80,8 +80,24 @@
     text-align: center;
     padding-bottom: 1vw;
 }
-.visible2 p{
-    padding-top: -2vw;
 
+/* ...................................................................................................................... */
+.work img{
+    padding: 1vw;
+    width: 20vw;
 }
-
+.portfolio h2{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.works img{
+    padding: 1vw;
+    width: 20vw;
+}
+.work{
+    padding-left: 9vw;
+}
+.works{
+    padding-left: 9vw;
+}
+/* .......................................................................................................................... */
