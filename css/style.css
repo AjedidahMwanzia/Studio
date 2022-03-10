@@ -13,13 +13,19 @@
     text-align: center;
     padding-top: 17vw;
 }
-.header h2{
+.header h3{
     font-size: 0.7vw;
-    padding-bottom: 14vw;
+    padding-bottom: 13vw;
+    margin-left: -5vw;
 }
 .header img{
-    padding-bottom: 2vw;
+    padding-bottom: 1.6vw;
 }
 .header h1{
     font-size: 3vw;
 }
+.header h2{
+    font-size: 3vw;
+    padding-top: 1vw;
+}
+
