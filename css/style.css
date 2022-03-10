@@ -58,3 +58,30 @@
 }
 /* ................................................................................................................................. */
 
+.container h2{
+    text-align: center;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3vw;
+}
+.card{
+    width: 28%;
+}
+.card img{
+   padding-left: 11vw;
+}
+.cards p{
+    text-align: center;
+    padding-bottom: 1vw;
+}
+.visible2 p{
+    padding-top: -2vw;
+
+}
+
