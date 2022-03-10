@@ -14,18 +14,31 @@
     padding-top: 17vw;
 }
 .header h3{
-    font-size: 0.7vw;
-    padding-bottom: 13vw;
+    font-size: 0.8vw;
+    padding-bottom: 12vw;
     margin-left: -5vw;
 }
 .header img{
-    padding-bottom: 1.6vw;
+    padding-bottom: 1.5vw;
 }
 .header h1{
-    font-size: 3vw;
+    font-size: 3.2vw;
+    padding-bottom: 0.5vw;
 }
 .header h2{
-    font-size: 3vw;
+    font-size: 3.2vw;
     padding-top: 1vw;
 }
-
+/* ............................................................................................................................... */
+.about{
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.about p{
+    padding-bottom: 1vw;
+}
+.about h2{
+    padding-bottom: 1vw;
+}
+/* ................................................................................................................................. */
