@@ -40,7 +40,7 @@ function validate(){
         alert("blank fill the data");
         return false;
     }else{
-        return true;
+        alert("Hi" + name +"")
     }
 }
     // ....................................users logic.....................................................................
