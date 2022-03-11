@@ -160,3 +160,15 @@
 input placeholder{
 
 }
+/* ................................................................................................................ */
+.footer p{
+    text-align: center;
+}
+.icons img{
+   padding-left: 1vw;
+}
+.icons{
+    margin-left: 28vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
