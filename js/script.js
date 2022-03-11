@@ -31,6 +31,18 @@ $(".visible2 ").click(function(){
     $(".visible2").toggle()
 })
 
+function validate(){
+    var name= document.getElementById(name).value
+    var email=document.getElementById(email).value
+    var message=document.getElementById(message).value
+
+    if(name==""|| email==""||message==""){
+        alert("blank fill the data");
+        return false;
+    }else{
+        return true;
+    }
+}
     // ....................................users logic.....................................................................
 
     
