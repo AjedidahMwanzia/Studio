@@ -29,6 +29,24 @@
     font-size: 3.2vw;
     padding-top: 1vw;
 }
+.navbar{
+    text-decoration: none;
+    color: white;
+}
+#mouse-click {
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+ }
+    40% {
+    transform: translateY(-55px);
+}
+    60% {
+      transform: translateY(-45px);
+}
+}
 /* ............................................................................................................................... */
 .about{
     text-align: center;
@@ -100,4 +118,21 @@
 .works{
     padding-left: 9vw;
 }
+.portfolio{
+    padding-bottom: 3vw;
+}
 /* .......................................................................................................................... */
+.contact{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+input{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+
+}

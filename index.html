@@ -15,6 +15,15 @@
 <body>
     <div class="header">
 
+        <div class="navbar" id="nav">
+            <a href="#Header">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#services">services</a>
+            <a href="#what-we-do">What we do</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </div>
+
         <img src="/assets/logo/logo.png" alt="logo">
         <h1> WELCOME </h1>
         <h2> TO DELANI STUDIO</h2>
@@ -33,7 +42,7 @@
 
     </div>
     
-    <div class="services" >
+    <div class="services" id="services" >
 
         <h2>SERVICES</h2>
         <P>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</P>
@@ -44,7 +53,7 @@
     </div>
  <!-- .......................................................card section................................................ -->
     
- <div class="container">
+ <div class="container" id="What-we-do">
      <h2>WHAT WE DO</h2>
         <div class="cards">
 
@@ -88,7 +97,7 @@
  </div>
     
  <!-- ...................................................................................................................... -->
-  <div class="portfolio">
+  <div class="portfolio" id="portfolio">
       <h2>PORTFOLIO</h2>
       <div class="work">
             <img src="/assets/portfolio/work4.jpg" alt="">
@@ -104,6 +113,19 @@
       </div>
  </div>
 
- 
+ <div class="contact" id="contact">
+        <h2>CONTACT US</h2>
+        <form action="" class="form">
+            <div class="collect">
+              <input type="text" value="Name..." name="uname" id="name">
+              <input type="email" value="Email..."  name="email" id="email">
+            </div>
+            <div>
+                <input type="text" value="Your message here..." name="message" id="message">
+            </div>
+            <button type="submit">Submit</button> 
+            
+        </form>
+ </div>
 </body>
 </html>
