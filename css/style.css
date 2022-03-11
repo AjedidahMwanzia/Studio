@@ -53,7 +53,7 @@
       transform: translateY(-45px);
 }
 }
-/* ............................................................................................................................... */
+/* .........................................about us............................................................................. */
 .about{
     text-align: center;
     padding-top: 3vw;
@@ -65,7 +65,7 @@
 .about h2{
     padding-bottom: 1vw;
 }
-/* ................................................................................................................................. */
+/* .........................................services........................................................................................ */
 .services{
     text-align: center;
     padding-top: 3vw;
@@ -80,7 +80,7 @@
 .services p{
     padding-bottom: 1vw;
 }
-/* ................................................................................................................................. */
+/* ......................................... what we do................................................................................. */
 
 .container h2{
     text-align: center;
@@ -92,10 +92,11 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 3vw;
+    padding-bottom: 18vw;
 }
 .card{
     width: 28%;
+    position: relative;
 }
 .card img{
    padding-left: 11vw;
@@ -104,9 +105,26 @@
     text-align: center;
     padding-bottom: 1vw;
 }
+.cards h4{
+    text-align: center;
+    padding-bottom: 1vw;
+}
+.hidden,.hidden1,.hidden2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.visible,.visible1,.visible2{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.card .visible2 img{
+    padding-top: 1vw;
+}
 
-
-/* ...................................................................................................................... */
+/* ..........................................portfolio.................................................................. */
 .work img{
     padding: 1vw;
     width: 20vw;
@@ -128,37 +146,41 @@
 .portfolio{
     padding-bottom: 3vw;
 }
-/* .......................................................................................................................... */
+/* ...........................................contact....................................................................*/
 .contact{
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     padding-top: 3vw;
-  
-}
-.collect input{
-    background-color: transparent;
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: bold;
-    height: 2vw;
-    padding: 2vw;
 }
 .contact h2{
   text-align: center;
   padding-bottom: 1vw;
 }
-.message input{
-    height: 15vw;
-    background-color: transparent;
-    
-    border: none;
+.form .collect input{
+    border: 0.1vw solid white;
+    outline: none;
+    color: white;
+    background: transparent;
+    margin-left: 2vw;
+    width: 35%;
+}
+.form .collect input::placeholder{
+    color: white;
+}
+.form .message input{
+    border: 0.1vw solid white;
+    outline: none;
+    color: white;
+    background: transparent;
+    width: 60%;
+}
+.form .message input::placeholder{
     color: white;
 }
 
-/* ................................................................................................................ */
+/* ............................................footer.................................................................*/
 .footer p{
     text-align: center;
 }
