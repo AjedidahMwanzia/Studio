@@ -105,6 +105,7 @@
     padding-bottom: 1vw;
 }
 
+
 /* ...................................................................................................................... */
 .work img{
     padding: 1vw;
@@ -133,12 +134,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    padding-top: 3vw;
+  
 }
-input{
+.collect input{
     background-color: transparent;
     color: white;
     outline: none;
     border: none;
     font-weight: bold;
+    height: 2vw;
+    padding: 2vw;
+}
+.contact h2{
+  text-align: center;
+  padding-bottom: 1vw;
+}
+.message input{
+    height: 15vw;
+    background-color: transparent;
+    
+    border: none;
+    color: white;
+}
+input placeholder{
 
 }
