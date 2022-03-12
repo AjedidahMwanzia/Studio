@@ -1,5 +1,5 @@
 
-//....................................business logic...........................................................................
+//...........................................what we do...........................................................................
 $(".visible ").click(function(){
     $(".visible").hide()
     $(".hidden ").toggle()
@@ -30,7 +30,7 @@ $(".visible2 ").click(function(){
     $(".hidden2").hide()
     $(".visible2").toggle()
 })
-
+// ........................................form validation....................................................................
 function validate(){
     var name=  document.getElementById("name").value
     var email= document.getElementById("email").value
@@ -43,7 +43,9 @@ function validate(){
         alert("Hello" +" " + name + " "+"we have received your message. Thank you for reaching out to us. ")
     }
 }
-
-    
-    
-
+// ..........................................portfolio........................................................................
+// $("#img1").mouseover(function(){
+//     $("#blank").show();
+//   }).mouseout(function(){
+//     $("#blank").hide();
+//   });
