@@ -44,14 +44,14 @@
 }
 
 @keyframes bounce {
-0%, 10% {
-    transform: translateY(0);
+    0%, 100% {
+          transform: translateY(0);
+     }
+  
+    100% {
+          transform: translateY(-55px);
+    }
  }
-30% {
-    transform: translateY(-1vw);
-}
-
-}
 /* .........................................about us............................................................................. */
 .about{
     text-align: center;
@@ -124,53 +124,62 @@
 }
 
 /* ..........................................portfolio.................................................................. */
-.work img{
-    padding: 1vw;
-    width: 20vw;
-  
-}
+
 .portfolio h2{
     text-align: center;
     padding-bottom: 2vw;
 }
-.works img{
+.images img{
     padding: 1vw;
-    width: 20vw;
-   
+    width: 100%;
 }
+
 .work{
     padding-left: 9vw;
-    position: relative;
     display: flex;
+    width: 100%;
 }
+
 .works{
     padding-left: 9vw;
-    position: relative;
     display: flex;
-}
-.images:hover img {
-    transform: scale(1.2);
-    transition: all 0.3s ease;
-}
-/* .images{
-    position: absolute;
     width: 100%;
-    min-height: 100%;
-    background: rgba(0, 0, 0, 0.582);
+}
+.images{
+  position: relative;
+  width: 23%;
+
+}
+.tag{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    z-index: 2;
+    top: 10%;
+    left: 10%;
+    display: flex;
     display: none;
-    transition: all 0.5s ease;
-} */
+    align-items: center;
+    justify-content: center;
+    margin-right: -2vw;
+}
 .blank{
-    padding: 5% 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.301);
     font-weight: bolder;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    border: 0.4vw solid whitesmoke;
+    border: 0.1vw solid whitesmoke;
     font-size:2vw;
     text-align: center;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
 }
 
 .portfolio{
@@ -192,7 +201,7 @@
     padding-left: 25vw;
     padding-bottom: 1vw; 
 }
-.form .collect input{
+#mc-embedded-subscribe-form  .collect input{
     border: 0.1vw solid white;
     outline: none;
     color: white;
@@ -203,10 +212,10 @@
     padding-bottom: 1vw;
   
 }
-.form .collect input::placeholder{
+#mc-embedded-subscribe-form .collect input::placeholder{
     color: white;
 }
-.form .message input{
+#mc-embedded-subscribe-form .message input{
     border: 0.1vw solid white;
     outline: none;
     color: white;

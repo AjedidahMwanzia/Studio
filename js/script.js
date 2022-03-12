@@ -46,6 +46,6 @@ function validate(){
 // ..........................................portfolio........................................................................
 
 
-$(".card").hover(function () {
-  $(this).children(".images").fadeToggle(1000, "linear");
+$(".images").hover(function () {
+  $(this).children(".tag").fadeToggle(1000, "linear");
 });
