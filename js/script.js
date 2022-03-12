@@ -40,7 +40,7 @@ function validate(){
         alert("blank fill the data");
         return false;
     }else{
-        alert("Hello" +" " + name +"we have received your message. Thank you for reaching out to us. ")
+        alert("Hello" +" " + name + " "+"we have received your message. Thank you for reaching out to us. ")
     }
 }
 
