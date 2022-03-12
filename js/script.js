@@ -44,8 +44,8 @@ function validate(){
     }
 }
 // ..........................................portfolio........................................................................
-// $("#img1").mouseover(function(){
-//     $("#blank").show();
-//   }).mouseout(function(){
-//     $("#blank").hide();
-//   });
+
+
+$(".card").hover(function () {
+  $(this).children(".images").fadeToggle(1000, "linear");
+});
