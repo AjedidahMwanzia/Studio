@@ -49,7 +49,7 @@
      }
   
     100% {
-          transform: translateY(-55px);
+          transform: translateY(-35px);
     }
  }
 /* .........................................about us............................................................................. */
@@ -262,3 +262,206 @@
     background: transparent;
 }
 /* ................................................@mediaQueris.................................................................. */
+
+@media  screen and (max-width:500px){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .header{
+        background-image: url(../assets/backgrounds/h_img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding-top: 15vw;
+    }
+    .header h3{
+        font-size: 0.8vw;
+        padding-bottom: 12vw;
+        margin-left: -5vw;
+    }
+    .header img{
+        padding-bottom: 1.6vw;
+    }
+    .header h1{
+        font-size: 3.2vw;
+        padding-bottom: 0.5vw;
+    }
+    .header h2{
+        font-size: 3.2vw;
+        padding-top: 1vw;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 1vw;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    #mouse-click {
+        animation: bounce 1s infinite; 
+    }
+    
+    @keyframes bounce {
+        0%, 100% {
+              transform: translateY(0);
+         }
+      
+        100% {
+              transform: translateY(-35px);
+        }
+     }
+}
+/* .....................................................about us/services.......................................................... */
+@media  screen and (max-width:500px){
+    .about{
+        text-align: center;
+        padding-top: 3vw;
+        padding-bottom: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .about p{
+        padding-bottom: 1vw;
+    }
+    .about h2{
+        padding-bottom: 1vw;
+    }
+    .services{
+        text-align: center;
+        padding-top: 14vw;
+        padding-bottom: 4vw;
+        color: white;
+        background-image: url(../assets/backgrounds/s_image.jpg);
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .services h2{
+        padding-bottom: 1vw;
+        padding-top: 6vw;
+    }
+    .services p{
+        padding-bottom: 1vw;
+    }
+}
+/* .....................................................what we do....................................................... */
+@media  screen and (max-width:500px){
+
+.container h2{
+    text-align: center;
+    margin-top: 7vw;
+   
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 18vw;
+}
+.card{
+    width: 28;
+    position: relative;
+    padding: 15vw;
+}
+.card img{
+   padding-left: 25vw;
+}
+.cards p{
+    text-align: center;
+    padding-bottom: 3vw;
+}
+.cards h4{
+    padding-left: 25vw;
+    padding-bottom: 2vw;
+}
+.hidden,.hidden1,.hidden2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.visible,.visible1,.visible2{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.card .visible2 img{
+    padding-top: 1vw;
+}
+
+}
+/* ............................................................portfolio.................................................... */
+@media  screen and (max-width:500px){
+
+
+.portfolio h2{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+/* .images img{
+    padding: 1vw;
+    width: 100%;
+} */
+
+.work{
+    padding-left: 9vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.works{
+    /* padding-left: 9vw; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.images{
+  position: relative;
+  /* width: 23%; */
+
+}
+.tag{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 2;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: -2vw;
+}
+.blank{
+    color: white;
+    font-weight: bolder;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border: 0.1vw solid whitesmoke;
+    font-size:2vw;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.portfolio{
+    padding-bottom: 3vw;
+    padding-top: 8vw;
+}
+}
