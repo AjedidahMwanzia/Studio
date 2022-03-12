@@ -4,7 +4,7 @@
 ##### By Ajedidah Mwanzia 
 
 
-<img src="">
+<img src="https://github.com/AjedidahMwanzia/studio/blob/master/assets/screenshot.png">
 
 
 ## Table of Content
