@@ -49,7 +49,7 @@
      }
   
     100% {
-          transform: translateY(-35px);
+          transform: translateY(-3.5vw);
     }
  }
 /* .........................................about us............................................................................. */
@@ -227,7 +227,7 @@
     padding-bottom: 15vw;
     font-weight: bold;
 }
-.form .message input::placeholder{
+#mc-embedded-subscribe-form .message input::placeholder{
     color: white;
 }
 .contact button{
@@ -285,6 +285,10 @@
     }
     .header img{
         padding-bottom: 1.6vw;
+        
+    }
+    #logo{
+        width: 9%;
     }
     .header h1{
         font-size: 3.2vw;
@@ -328,9 +332,12 @@
     }
     .about p{
         padding-bottom: 1vw;
+        font-size: 3vw;
     }
     .about h2{
         padding-bottom: 1vw;
+        font-size: 4vw;
+      
     }
     .services{
         text-align: center;
@@ -344,88 +351,91 @@
     .services h2{
         padding-bottom: 1vw;
         padding-top: 6vw;
+        font-size: 4vw;
     }
     .services p{
         padding-bottom: 1vw;
+        font-size: 3vw;
     }
 }
 /* .....................................................what we do....................................................... */
 @media  screen and (max-width:500px){
-
-.container h2{
-    text-align: center;
-    margin-top: 7vw;
-   
-}
-.cards{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 18vw;
-}
-.card{
-    width: 28;
-    position: relative;
-    padding: 15vw;
-}
-.card img{
-   padding-left: 25vw;
-}
-.cards p{
-    text-align: center;
-    padding-bottom: 3vw;
-}
-.cards h4{
-    padding-left: 25vw;
-    padding-bottom: 2vw;
-}
-.hidden,.hidden1,.hidden2{
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: auto;
-}
-.visible,.visible1,.visible2{
-    position: absolute;
-    width: 100%;
-    height: auto;
-}
-.card .visible2 img{
-    padding-top: 1vw;
-}
-
+    .container h2{
+        text-align: center;
+        margin-top: 3vw;
+        padding-bottom: 2vw;
+        font-size: 4vw;
+    
+    } 
+   .cards{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 25vw;
+    }
+    .card{
+        width: 28%;
+        position: relative;
+    }
+    .card img{
+        padding-left: 11vw;
+        width: 80%;
+    }
+    .cards p{
+        text-align: center;
+        padding-bottom: 1vw;
+        font-size: 1.5vw;
+        
+    }
+    .cards h4{
+        text-align: center;
+        padding-bottom: 1vw;
+        font-size: 2.2vw;
+        margin-left: 2vw;
+    }
+    .hidden,.hidden1,.hidden2{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .visible,.visible1,.visible2{
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .card .visible2 img{
+        padding-top: 1vw;
+    }
 }
 /* ............................................................portfolio.................................................... */
 @media  screen and (max-width:500px){
-
-
 .portfolio h2{
     text-align: center;
     padding-bottom: 2vw;
+    font-size: 4vw;
 }
-/* .images img{
+.images img{
     padding: 1vw;
     width: 100%;
-} */
+}
 
 .work{
     padding-left: 9vw;
     display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
 .works{
-    /* padding-left: 9vw; */
+    padding-left: 9vw;
     display: flex;
-    flex-direction: column;
+flex-direction: row;
     width: 100%;
 }
 .images{
   position: relative;
-  /* width: 23%; */
+  width: 23%;
 
 }
 .tag{
@@ -464,4 +474,90 @@
     padding-bottom: 3vw;
     padding-top: 8vw;
 }
+}
+
+/* ..................................................contact............................................................... */
+@media  screen and (max-width:500px){
+    .contact{
+        background-image: url(../assets/backgrounds/c_image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        color: white;
+        padding-top: 3vw;
+        padding-left: 15vw;
+    
+    }
+    .contact h2{
+        padding-left: 16vw;
+        padding-bottom: 1vw;
+        font-size: 4vw; 
+    }
+    #mc-embedded-subscribe-form  .collect input{
+        border: 0.1vw solid white;
+        outline: none;
+        color: white;
+        background: transparent;
+        margin-left: 1vw;
+        width: 33%;
+        font-weight: bold;
+        padding-bottom: 1vw;
+        font-size: 3vw;
+      
+    }
+    #mc-embedded-subscribe-form .collect input::placeholder{
+        color: white;
+    }
+    #mc-embedded-subscribe-form .message input{
+        border: 0.1vw solid white;
+        outline: none;
+        color: white;
+        background: transparent;
+        width: 68%;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+        margin-left: 1vw;
+        padding-bottom: 15vw;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    #mc-embedded-subscribe-form .message input::placeholder{
+        color: white;
+    }
+    .contact button{
+        width: 17%;
+        margin-bottom: 5vw;
+        padding-top: 0.5vw;
+        margin-left: 1vw;
+        padding-bottom: 0.5vw;
+        color: white;
+        background: transparent;
+        border: 0.1vw solid white;
+        outline: none;
+        font-size: 3vw;
+        
+    }
+    
+}
+/* ............................................................footer.................................................... */
+@media  screen and (max-width:500px){
+    .footer p{
+        text-align: center;
+        font-size: 1.4vw;
+    }
+    .icons img{
+       padding-left: 1vw;
+       width: 8%;
+   
+    }
+    .icons{
+        margin-top: 4vw;
+        margin-bottom: 2vw;
+    }
+    .icons img:hover{
+        box-shadow:0 0 0.2vw rgb(0, 0, 0);
+        border-radius: 2vw;
+        padding: 0.1vw; 
+        background: transparent;
+    }
 }
